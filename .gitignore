@@ -1,0 +1,22 @@
+# Environment Variables
+.env
+
+# Virtual Environment
+venv/
+
+# Streamlit Cache
+streamlit_cache/
+
+# Database
+.data/
+
+# Temporary Files
+*.tmp
+
+# IDE and Editor Files
+.vscode/
+.idea/
+
+# Build and Distribution
+build/
+dist/
