@@ -1,0 +1,29 @@
+# Backend Dependencies
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+httpx>=0.24.0
+
+# Database
+sqlalchemy>=2.0.0
+aiosqlite>=0.19.0
+
+# RAG & AI
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-chroma>=0.1.0
+chromadb>=0.4.0
+pypdf>=3.0.0
+tiktoken>=0.5.0
+# OpenAI or other LLM provider (assuming OpenAI for now, can be swapped)
+langchain-openai>=0.0.1
+
+# Utilities
+python-dotenv>=1.0.0
+aiofiles>=23.0.0
+
+# Frontend Dependencies
+streamlit>=1.30.0
+watchdog>=3.0.0
